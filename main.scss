@@ -1,0 +1,56 @@
+@import url('http://fonts.cdnfonts.com/css/bazar-2');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400&family=Roboto+Slab:wght@400&display=swap');
+
+@import "fonts";
+@import "basic-colors";
+
+@import "header/header";
+@import "navbar/navbar";
+@import "bottom-dashed-line/bottom-dashed-line";
+@import "top-dashed-line/top-dashed-line";
+@import "slider-section/slider-section";
+@import "ribbon/ribbon";
+@import "slide-container/slide-container";
+@import "greeting-message/greeting-message";
+@import "about-section/about-section";
+@import "headers/headers";
+@import "hobbies/hobbies";
+@import "portfolio-section/portfolio-section";
+@import "filtration-block/filtration-block";
+@import "filter/filter";
+@import "filtered-items/filtered-items";
+@import "show-more/show-more";
+@import "blog-section/blog-section";
+@import "news-list/news-list";
+@import "news/news";
+@import "contact-section/contact-section";
+@import "contact-form/contact-form";
+@import "social-networks/social-networks";
+@import "progress-bar-section/progress-bar-section";
+@import "modal-window/modal-window";
+@import "change-theme/change-theme";
+@import "submit-animation/submit-animation";
+@import "animation-preload/animation-preload";
+@import "weather/weather";
+
+body {
+    font-family: Helvetica, sans-serif;
+    margin: 0;
+    font-family: 'Bazar', sans-serif;
+}
+
+.night{
+    background-color: $dark-background;
+    color: $basic-light;
+}
+
+.headers__style_theme_night:after {
+    background: $dark-background;
+}
+
+.opacity {
+    opacity: 1;
+    transition: opacity 1s;
+    transform: translateY(0%);
+}
+
