@@ -1,0 +1,23 @@
+@import "_hover_color/hover_color";
+@import "_active_inset/active_inset";
+
+.weather {
+    position: absolute;
+    top: 3vw;
+    left: 3vw;
+    height: 10vw;
+    width: 20vw;
+    background-color: $light-background;
+    color: $basic-dark;
+    font-family: $oswald-font;
+    border-radius: 3px;
+    border: 2px solid $light-grey;
+    white-space: normal;
+}
+
+@media screen and (min-width: 600px) {
+    .weather {
+        height: 3vw;
+        width: 15vw;
+    }
+}
