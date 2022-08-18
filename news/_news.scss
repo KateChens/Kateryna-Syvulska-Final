@@ -1,0 +1,20 @@
+@import "__image-container/_image-container";
+@import "__image/_image";
+@import "__news-container/_news-container";
+@import "__header/_header";
+@import "__main-info/_main-info";
+@import "__tags/_tags";
+@import "__responces/_responces";
+@import "__line/_line";
+@import "__description/_description";
+@import "__more-for-news/_more-for-news";
+@import "_opacity/opacity";
+
+.news{
+    display: flex;
+    padding: 1%;
+    flex-direction: row;
+    width: 70%;
+    opacity: 0.0;
+    transform: translateY(100%);
+}

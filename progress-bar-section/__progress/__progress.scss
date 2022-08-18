@@ -1,0 +1,19 @@
+  .progress-bar-section__progress{
+    display: block;
+    margin: 5px auto;
+    width: 90vw;
+    height: 10px;
+    border: 1px solid $basic-turquoise;
+  }
+  
+  .progress-bar-section__progress::-webkit-progress-bar {
+      background-color: $dark-background;
+  }
+
+  .progress-bar-section__progress::-webkit-progress-value {
+      background-color: $basic-light;
+  }
+
+  .progress-bar-section__progress::-moz-progress-bar {
+      background-color: $basic-light;
+  }

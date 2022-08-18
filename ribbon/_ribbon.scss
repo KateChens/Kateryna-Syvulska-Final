@@ -1,0 +1,12 @@
+@import "__text/_text";
+
+.ribbon {
+    margin: 0;
+    padding: 10px 0 30px;
+    //position: relative;
+    text-align: center;
+    background-image: url("ribbon/ribbon.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 40vw auto;
+}
