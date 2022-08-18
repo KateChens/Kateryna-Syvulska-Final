@@ -1,0 +1,12 @@
+@import "__header/_header";
+@import "__style/_style";
+@import "__links-container/_links-container";
+@import "__link/_link";
+@import "__image/_image";
+@import "__img-container/_img-container";
+
+.social-networks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

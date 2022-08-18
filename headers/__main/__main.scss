@@ -1,0 +1,18 @@
+.headers__main {
+    font-size: 7vw;
+    color: $headers-color;
+    margin: 15px 0;
+    padding: 10px;
+    text-shadow: 1px 1px 0px $headers-shadow-1, 3px 3px 0px $headers-shadow-2;
+}
+
+.contact-section .headers__main {
+    color: $basic-light;
+    text-shadow: 2px 2px 0px $headers-shadow-2, 3px 3px 0px $basic-light;
+}
+
+@media screen and (min-width: 600px) {
+    .headers__main {
+        font-size: 5vw;
+    }
+}

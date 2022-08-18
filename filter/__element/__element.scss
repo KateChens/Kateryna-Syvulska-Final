@@ -1,0 +1,47 @@
+@import "_clicked_color/clicked_color";
+@import "_basic_color/basic_color";
+
+.filter__element {
+    float: left;
+    margin: 5px 5px;
+    font-size: 2vw;
+    line-height: 1.4vw;
+    font-family: $roboto-slab-font;
+    color: $basic-dark;
+    font-weight: bold;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px $shadow-color;
+
+    //background: $light-background;
+    position: relative;
+    width: auto;
+    height: 3vh;
+    padding: 3px 5px 0 1px;
+}
+
+.filter__element:before {
+    color: $light-grey;
+    content: "\2022 ";
+    padding-right: 0.6vw;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .filter__element {
+        margin: 0 20px;
+        border-radius: 0;
+        border-bottom-right-radius: 3px;
+        border-top-right-radius: 3px;
+        font-size: 0.8vw;
+    }
+/*
+    .filter__element::after {
+        content: '';
+        position: absolute;
+        left: -1.55vw;
+        bottom: 0.0vh;
+        border: 1.7vh solid transparent;
+        //border-right: 1.5vh solid $light-background;
+    }*/
+}

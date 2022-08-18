@@ -1,0 +1,13 @@
+.hobbies__description {
+    font-size: 3vw;
+    font-family: $roboto-slab-font;
+    font-weight: lighter;
+    margin: 15px;
+}
+
+
+@media screen and (min-width: 600px) {
+    .hobbies__description {
+        font-size: 1vw;
+    }
+}

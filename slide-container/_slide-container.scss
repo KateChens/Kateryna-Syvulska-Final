@@ -1,0 +1,17 @@
+@import "__photo-container/_photo-container";
+@import "__photo/_photo";
+@import "__caption/_caption";
+@import "__arrow-right/_arrow-right";
+@import "__arrow-left/_arrow-left";
+
+.slide-container{
+    width: 70vw;
+    position: relative;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    border-radius: 3px;
+    overflow: hidden;
+    background-color: $light-background;
+}

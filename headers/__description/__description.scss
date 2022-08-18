@@ -1,0 +1,16 @@
+.headers__description {
+    color: $headers-color;
+    font-family: $oswald-font;
+    font-size: 3vw;
+    margin-top: 0;
+}
+
+.contact-section .headers__description {
+    color: $basic-light;
+}
+
+@media screen and (min-width: 600px) {
+    .headers__description {
+        font-size: 1vw;
+    }
+}

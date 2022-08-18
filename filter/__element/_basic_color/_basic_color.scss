@@ -1,0 +1,12 @@
+.filter__element_basic_color{
+    background: $light-background;
+}
+
+.filter__element_basic_color::after {
+            content: '';
+                position: absolute;
+                left: -1.55vw;
+                bottom: 0.0vh;
+                border: 1.7vh solid transparent;
+    border-right: 1.5vh solid $light-background;
+}

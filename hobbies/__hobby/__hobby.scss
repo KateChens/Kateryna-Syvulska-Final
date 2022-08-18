@@ -1,0 +1,12 @@
+.hobbies__hobby{
+    text-align: center;
+    padding: 0;
+    margin: 0 0.6vw;
+    width: 100vw;
+}
+
+@media screen and (min-width: 600px) {
+    .hobby {
+        width: calc((100% - 40px) / 4);
+    }
+}

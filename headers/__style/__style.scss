@@ -1,0 +1,44 @@
+.headers__style{
+    display: none;
+    border: none;
+    border-top: 2px solid $headers-color;
+    color: $headers-color;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+    width: 8vw;
+}
+
+@media screen and (min-width: 600px) {
+    .headers__style {
+        display: block;
+    }
+}
+
+.headers__style:after {
+    content: '\2716 \2716 \2716';
+    padding: 0 10px;
+    position: relative;
+    top: -13px;
+}
+
+.about-section .headers__style:after, .blog-section .headers__style:after{
+    background: $basic-light;
+}
+
+.portfolio-section .headers__style:after {
+    background: $basic-orange;
+}
+
+.blog-section .headers__style:after {
+    background: $grey-beige-background;
+}
+
+
+.contact-section .headers__style {
+    color: $basic-light;
+    border-color: $basic-light;
+}
+.contact-section .headers__style:after {
+    background: $dark-background;
+}

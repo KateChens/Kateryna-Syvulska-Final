@@ -1,0 +1,15 @@
+.filtered-items__item{
+    width: 80vw;
+    height: 80vw;
+    margin: 1vw;
+    background-color: $light-background;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px $shadow-color;
+}
+
+@media screen and (min-width: 600px) {
+    .filtered-items__item {
+        width: 12vw;
+        height: 12vw;
+    }
+}

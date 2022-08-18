@@ -1,0 +1,22 @@
+@import "_hover_color/hover_color";
+@import "_active_inset/active_inset";
+
+.change-theme{
+    position: absolute;
+    top: 3vw;
+    right: 3vw;
+    height: 8vw;
+    width: 16vw;
+    background-color: $light-background;
+    color: $basic-dark;
+    font-family: $oswald-font;
+    border-radius: 3px;
+    border: 2px solid $light-grey;
+}
+
+@media screen and (min-width: 600px) {
+    .change-theme {
+        height: 3vw;
+        width: 6vw;
+    }
+}

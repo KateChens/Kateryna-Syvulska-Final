@@ -1,0 +1,9 @@
+.navbar__element {
+    float: none;
+}
+
+@media screen and (min-width: 600px) {
+    .navbar__element {
+        float: right;
+    }
+}

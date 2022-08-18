@@ -1,0 +1,14 @@
+.filtered-items__image{
+    width: 96%;
+    height: 70%;
+    background-color: $light-text;
+    border-color: $light-text;
+    margin: 5px;
+}
+
+@media screen and (min-width: 600px) {
+    .filtered-items__image{
+        width: 96%;
+        height: 70%;
+    }
+}

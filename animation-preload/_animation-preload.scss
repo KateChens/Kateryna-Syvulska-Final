@@ -1,0 +1,14 @@
+@import "__element/_element";
+
+.animation-preload {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background-color: $light-background;
+    transition: 1s all;
+    opacity: 0;
+    visibility: hidden;
+}

@@ -1,0 +1,17 @@
+@import "_hover_darker/hover_darker";
+
+.slide-container__arrow-left {
+    background-color: $light-background;
+    width: 80px;
+    height: 80px;
+    padding: 10px 10px 0 0;
+    border-radius: 50%;
+    border: none;
+    font-size: 2em;
+    color: $arrow-color;
+    position: absolute;
+    bottom: 15vw;
+    left: 69vw;
+}
+
+

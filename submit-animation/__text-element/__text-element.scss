@@ -1,0 +1,15 @@
+.submit-animation__text-element{
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    width: 20vw;
+    height: 4vw;
+    font-family: $oswald-font;
+    color: $basic-dark;
+    background-color: $light-background;
+    padding: 5px;
+    margin: 0;
+    font-size: 2vw;
+    border-radius: 3px;
+    box-shadow: 1px 1px 1px $shadow-color;
+}

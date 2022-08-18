@@ -1,0 +1,10 @@
+@import "__list/_list";
+@import "__element/_element";
+@import "__link/_link";
+@import "__logo/_logo";
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}

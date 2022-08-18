@@ -1,0 +1,11 @@
+.hobbies__header{
+    font-size: 5vw;
+    font-weight: normal;
+    margin: 1vw 0 0;
+}
+
+@media screen and (min-width: 600px) {
+    .hobbies__header {
+        font-size: 1.6vw;
+    }
+}

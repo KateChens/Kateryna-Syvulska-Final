@@ -1,0 +1,12 @@
+.filter__element_clicked_color{
+    background: $basic-turquoise;
+}
+
+.filter__element_clicked_color::after {
+            content: '';
+                position: absolute;
+                left: -1.55vw;
+                bottom: 0.0vh;
+                border: 1.7vh solid transparent;
+    border-right: 1.5vh solid $basic-turquoise;
+}

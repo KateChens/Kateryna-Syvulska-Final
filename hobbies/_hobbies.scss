@@ -1,0 +1,20 @@
+@import "__hobby/_hobby";
+@import "__image/_image";
+@import "__header/_header";
+@import "__description/_description";
+@import "__style/_style";
+@import "__text/_text";
+
+.hobbies{
+    padding: 1vw 2vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+@media screen and (min-width: 600px) {
+    .hobbies {
+    flex-direction: row;
+    padding: 1vw 23vw;
+    }
+}

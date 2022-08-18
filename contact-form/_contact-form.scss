@@ -1,0 +1,8 @@
+@import "__item/_item";
+@import "__submit/_submit";
+@import "__submit/_hover_color/hover_color";
+
+.contact-form{
+    display: flex;
+    flex-direction: column;  
+}

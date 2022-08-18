@@ -1,0 +1,26 @@
+@import "__question/_question";
+@import "__confirm-button/_confirm-button";
+
+.modal-window{
+    width: 40vw;
+    height: 30vw;
+    background-color: $basic-light;
+    border: 5px solid $light-background;
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px $shadow-color;
+    padding: 2vw;
+    text-align: center;
+    position: fixed;
+    top: 35vh;
+    left: 29vw;
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .modal-window {
+        width: 20vw;
+        height: 10vw;
+        top: 30vh;
+        left: 39vw;
+    }
+}

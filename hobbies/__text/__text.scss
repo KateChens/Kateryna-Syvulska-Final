@@ -1,0 +1,18 @@
+.hobbies__text{
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 2vw;
+    font-family: $roboto-slab-font;
+    text-align: start;
+    padding: 0 2vw;
+    line-height: 1.8;
+}
+
+@media screen and (min-width: 600px) {
+    .hobbies__text {
+        white-space: initial;
+        font-size: 0.8vw;
+        padding: 0;
+    }
+}

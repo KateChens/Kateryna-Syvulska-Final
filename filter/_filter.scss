@@ -1,0 +1,20 @@
+@import "__list/_list";
+@import "__element/_element";
+@import "__text/_text";
+
+.filter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: baseline;
+    padding: 1%;
+}
+
+@media screen and (min-width: 600px) {
+    .filter {
+        display: flex;
+        justify-content: center;
+        align-items: baseline;
+        padding: 1%;
+    }
+}

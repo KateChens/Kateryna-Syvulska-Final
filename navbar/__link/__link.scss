@@ -1,0 +1,20 @@
+@import "_hover_ligth-grey/hover_ligth-grey";
+
+.navbar__link {
+    display: block;
+    text-align: center;
+    padding: 2vw 3vw;
+    text-decoration: none;
+    color: $light-text;
+    font-size: 5vw;
+    text-shadow: 1px 1px 1px $shadow-color;
+}
+
+
+
+@media screen and (min-width: 600px) {
+    .navbar__link {
+        padding: 5px 3vw;
+        font-size: 1.5vw;
+    }
+}

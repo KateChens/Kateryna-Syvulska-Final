@@ -1,0 +1,13 @@
+.hobbies__style {
+    border: none;
+    border-top: 3px solid $basic-dark;
+    height: 5px;
+    width: 20%;
+    display: none;
+}
+
+@media screen and (min-width: 600px) {
+    .hobbies__style {
+        display: block;
+    }
+}

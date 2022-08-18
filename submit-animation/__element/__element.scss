@@ -1,0 +1,161 @@
+.submit-animation__element {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 30px;
+    height: 30px;
+    box-shadow: 1px 1px 1px $light-background;
+}
+
+.submit-animation__element:nth-child(even) {
+    background-color: $basic-orange;
+}
+
+.submit-animation__element:nth-child(odd) {
+    background-color: $confetti-pink;
+}
+
+@keyframes span-1 {
+    from {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(-20vw, 0);
+    }
+
+    to {
+        transform: translate(0);
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes span-3 {
+    from {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(20vw, 0);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+@keyframes span-5 {
+    from {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(0, -20vw);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+@keyframes span-7 {
+    from {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(0, 20vw);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+@keyframes span-2 {
+    from {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(-15vw, 15vw);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+@keyframes span-4 {
+    from {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(15vw, 15vw);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+@keyframes span-6 {
+    from {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(15vw, -15vw);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+@keyframes span-8 {
+    from {
+        transform: translate(0);
+    }
+
+    50% {
+        transform: translate(-15vw, -15vw);
+    }
+
+    to {
+        transform: translate(0);
+    }
+}
+
+.submit-animation__element:nth-child(1) {
+    animation: span-1 3s ease-in infinite alternate;
+}
+
+.submit-animation__element:nth-child(3) {
+    animation: span-3 3s ease-in infinite alternate;
+}
+
+.submit-animation__element:nth-child(5) {
+    animation: span-5 3s ease-in infinite alternate;
+}
+
+.submit-animation__element:nth-child(7) {
+    animation: span-7 3s ease-in infinite alternate;
+}
+
+.submit-animation__element:nth-child(2) {
+    animation: span-2 3s ease-out infinite alternate;
+}
+
+.submit-animation__element:nth-child(4) {
+    animation: span-4 3s ease-out infinite alternate;
+}
+
+.submit-animation__element:nth-child(6) {
+    animation: span-6 3s ease-out infinite alternate;
+}
+
+.submit-animation__element:nth-child(8) {
+    animation: span-8 3s ease-out infinite alternate;
+}

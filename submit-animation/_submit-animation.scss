@@ -1,0 +1,13 @@
+@import "__element/_element";
+@import "__text-element/_text-element";
+
+.submit-animation {
+    position: fixed;
+    width: 100%;
+    height: 98%;
+    top: 5px;
+    z-index: 1;
+    transition: 1s all;
+    opacity: 0;
+    visibility: hidden;
+}

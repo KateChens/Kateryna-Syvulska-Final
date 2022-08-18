@@ -1,0 +1,10 @@
+.modal-window__question{
+    color: $basic-dark;
+    font-size: 4vw;
+}
+
+@media screen and (min-width: 600px) {
+    .modal-window__question {
+        font-size: 2vw;
+    }
+}
